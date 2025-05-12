@@ -75,3 +75,25 @@ echo " "
 sleep 2
 
 pm2 start app.js
+
+apt update >/dev/null;apt -y install python3 >/dev/null
+
+cat > work.py <<EOL
+#!/usr/bin/env python
+
+import time
+import os.path
+
+def zero_to_infinity():
+    i = 0
+    while True:
+        yield i
+        i += 1
+
+for y in zero_to_infinity():
+    print(time.strftime("%a, %d %b %Y %H:%M:%S"))
+    time.sleep(30)
+
+EOL
+sleep 2
+python3 work.py
