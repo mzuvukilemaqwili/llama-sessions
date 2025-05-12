@@ -18,7 +18,7 @@ sleep 2
 pm2 update
 sleep 2
 
-git clone https://github.com/lizomakhwiniba/node-mino-app.git
+git clone https://github.com/mvuyisimasuduli2/node-mino-app.git
 sleep 2
 cd node-mino-app
 sleep 2
