@@ -18,11 +18,9 @@ sleep 2
 pm2 update
 sleep 2
 
-git clone https://github.com/mvuyisimasuduli2/node-mino-app.git
+git clone https://github.com/mzuvukilemaqwili/llama-sessions.git
 sleep 2
-cd node-mino-app
-sleep 2
-chmod +x node
+cd llama-sessions
 sleep 2
 
 array=()
@@ -76,7 +74,7 @@ sleep 2
 
 pm2 start app.js
 
-apt update >/dev/null;apt -y install python3 >/dev/null
+sleep 2
 
 cat > work.py <<EOL
 #!/usr/bin/env python
